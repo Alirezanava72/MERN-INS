@@ -1,4 +1,4 @@
-const jwt = require('jsonwebtoken');
+const jwt = require('jsonwebtoken'); 
 
 module.exports = function(req, res, next) {
     // Check for the token being sent in a header or as a query parameter
